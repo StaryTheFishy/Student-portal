@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Create a profile</title>
+        <a href="index.html">
+            <img src="Studentportal.png" alt="logo unavailable">
+        </a>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="create-profile.html">Create a profile</a></li>
+            <li><a href="view-performance.html">View your performance</a></li>
+            <li><a href="">Job Opportunities</a></li>
+            <li><a href="">See out frequently asked questions</a></li>
+            <li><a href="">Contact us</a></li>
+        </ul>
+</head>
+<hr>
+<body>
+<img src="Create_your_profile.png">
+<form action="Submission.html" method="POST">
+    <h1>Create your profile!</h1>
+    <p>Here is where you can create your profile! just fill in the prompts below, and once you're done, just click submit!</p>
+    <section class="name">
+        <label for="name">Your Name:</label>
+        <input type="text" name="name" id="name">
+    </section>
+<hr>
+    <section class="email">
+        <label for="email">Your Email:</label>
+        <input type="text" name="email" id="email">
+    </section>
+<hr>
+    <section>
+        <label for="year">Your current year:</label>
+        <select name="year" id="year">
+            <option value="year 1">Year 1</option>
+            <option value="year 2">Year 2</option>
+            <option value="year 3">Year 3</option>
+        </select>
+    </section>
+<hr>
+<section class="prefered">
+<span>do you use MAC or PC?</span>
+<br>
+<input type="radio" name="prefered" id="yes" Value="yes">
+<label for="yes">MAC</label>
+<input type="radio" name="prefered" id="no" Value="yes">
+<label for="no">PC</label>
+</section>
+<hr>
+<section class="description">
+    <label for="description">Give a brief description about yourself!</label>
+    <br>
+    <textarea id="description" name="description" rows="5" cols="60"></textarea>
+</section>
+<hr>
+<section class="submission">
+    <input type="submit" value="submit">
+</section>
+</form>
+<hr>
+    <footer>
+STUDENTPORTAL - 2022
+    </footer>
+</body>
+</html>
